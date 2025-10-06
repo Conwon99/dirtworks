@@ -35,7 +35,7 @@ const Gallery = () => {
   };
 
   return (
-    <section id="gallery" className="py-20 px-4 bg-background">
+    <section id="gallery" className="py-20 px-4 bg-background overflow-x-hidden">
       <div className="container mx-auto max-w-7xl">
         <div className="text-left mb-16">
           <div className="flex items-center mb-6">

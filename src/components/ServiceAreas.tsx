@@ -17,7 +17,7 @@ const ServiceAreas = () => {
   ];
 
   return (
-    <section id="service-areas" className="py-20 px-4 bg-gradient-to-b from-background to-[hsl(var(--muted))]">
+    <section id="service-areas" className="py-20 px-4 bg-gradient-to-b from-background to-[hsl(var(--muted))] overflow-x-hidden">
       <div className="container mx-auto max-w-7xl">
         <div className="text-left mb-16">
           <div className="flex items-center mb-4">

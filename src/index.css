@@ -150,31 +150,6 @@ All colors MUST be HSL.
     box-sizing: border-box;
   }
   
-  /* Ensure no horizontal overflow on the main container */
-  .container {
-    overflow-x: hidden;
-  }
-  
-  /* Prevent any element from causing horizontal scroll */
-  body, html {
-    overflow-x: hidden !important;
-  }
-  
-  /* Ensure the React mount and common wrappers cannot cause horizontal scroll */
-  #root {
-    overflow-x: hidden;
-    width: 100%;
-  }
-  
-  section, header, nav, footer {
-    overflow-x: hidden;
-  }
-  
-  /* Avoid sideways bounce/overscroll on mobile */
-  html, body {
-    overscroll-behavior-x: none;
-  }
-  
   /* Ensure images are responsive */
   img {
     max-width: 100%;

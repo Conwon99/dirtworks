@@ -133,8 +133,8 @@ const Hero = () => {
 
             {/* Quick Contact */}
             <div className="pt-4 border-t border-white/20">
-              <p className="text-white text-lg font-semibold mb-3">Give us a call or a Whatsapp for a <span className="font-bold text-green-400">FREE QUOTE</span></p>
-              <div className="flex flex-col sm:flex-row gap-4 w-full">
+              <p className="text-white text-lg font-semibold mb-3 text-center sm:text-left">Give us a call or a Whatsapp for a <span className="font-bold text-green-400">FREE QUOTE</span></p>
+              <div className="flex flex-col sm:flex-row gap-4 w-full justify-center sm:justify-start">
               <Button 
                 onClick={handleMessengerClick}
                 className="inline-flex items-center justify-center gap-3 px-10 py-8 bg-green-600 hover:bg-green-700 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 text-lg"

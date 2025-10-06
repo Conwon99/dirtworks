@@ -70,7 +70,7 @@ const FAQ = () => {
         </script>
       </Helmet>
       
-      <section id="faq" className="py-20 px-4 bg-gradient-to-b from-background to-[hsl(var(--muted))]">
+      <section id="faq" className="py-20 px-4 bg-gradient-to-b from-background to-[hsl(var(--muted))] overflow-x-hidden">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-16">
             <h2 className="font-display text-4xl lg:text-5xl font-bold text-[hsl(var(--asphalt-grey))] mb-6">

@@ -27,7 +27,7 @@ const TrustBar = () => {
           {trustItems.map((item, index) => (
             <div key={index} className="flex items-center gap-2 text-white">
               <item.icon className="w-5 h-5 flex-shrink-0" />
-              <span className="font-semibold text-sm md:text-base whitespace-nowrap">{item.text}</span>
+              <span className="font-semibold text-sm md:text-base whitespace-normal">{item.text}</span>
             </div>
           ))}
         </div>
