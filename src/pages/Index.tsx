@@ -8,10 +8,12 @@ import Gallery from "@/components/Gallery";
 import FAQ from "@/components/FAQ";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import ScrollDepthTracker from "@/components/ScrollDepthTracker";
 
 const Index = () => {
   return (
     <main className="min-h-screen">
+      <ScrollDepthTracker />
       <Navigation />
       <Hero />
       <TrustBar />

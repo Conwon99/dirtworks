@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, X, Facebook } from "lucide-react";
 import LazyImage from "@/components/LazyImage";
+import { trackGalleryInteraction, trackExternalLink } from "@/utils/analytics";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
@@ -15,23 +16,31 @@ const Gallery = () => {
   ];
 
   const openLightbox = (index: number) => {
+    trackGalleryInteraction('image_open', index);
     setSelectedImage(index);
   };
 
   const closeLightbox = () => {
+    trackGalleryInteraction('lightbox_close');
     setSelectedImage(null);
   };
 
   const nextImage = () => {
     if (selectedImage !== null) {
+      trackGalleryInteraction('image_next', selectedImage);
       setSelectedImage((selectedImage + 1) % galleryImages.length);
     }
   };
 
   const prevImage = () => {
     if (selectedImage !== null) {
+      trackGalleryInteraction('image_prev', selectedImage);
       setSelectedImage(selectedImage === 0 ? galleryImages.length - 1 : selectedImage - 1);
     }
+  };
+
+  const handleFacebookClick = () => {
+    trackExternalLink('https://www.facebook.com/profile.php?id=61573221204538', 'View more work on Facebook');
   };
 
   return (
@@ -75,6 +84,7 @@ const Gallery = () => {
             href="https://www.facebook.com/profile.php?id=61573221204538"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleFacebookClick}
             className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-xl transition-colors duration-200 shadow-lg hover:shadow-xl"
           >
             <Facebook className="w-6 h-6" />

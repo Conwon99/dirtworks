@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import { trackPhoneCall, trackMessenger, trackQuoteRequest, trackFormInteraction } from "@/utils/analytics";
+import { trackPhoneCall, trackMessenger, trackQuoteRequest, trackFormInteraction, trackEmailClick } from "@/utils/analytics";
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -30,7 +30,7 @@ const ContactSection = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://formspree.io/f/xgvljren', {
+      const response = await fetch('https://formspree.io/f/mgvnlora', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -84,6 +84,10 @@ const ContactSection = () => {
     window.open("https://wa.me/447403725998", "_blank");
   };
 
+  const handleEmailClick = () => {
+    trackEmailClick('contact_section');
+  };
+
   return (
     <section id="contact-form" className="py-20 px-4 sm:px-6 lg:px-8 bg-[hsl(var(--muted))] overflow-x-hidden">
       <div className="container mx-auto max-w-6xl w-full">
@@ -116,7 +120,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-[hsl(var(--asphalt-grey))] text-sm sm:text-base">Phone</p>
-                  <a href="tel:+447403725998" className="text-[hsl(var(--primary-blue))] hover:underline text-sm sm:text-base">
+                  <a href="tel:+447403725998" onClick={handleCallClick} className="text-[hsl(var(--primary-blue))] hover:underline text-sm sm:text-base">
                     07403 725998
                   </a>
                 </div>
@@ -128,7 +132,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-[hsl(var(--asphalt-grey))] text-sm sm:text-base">Email</p>
-                  <a href="mailto:dirtworkslandscaping@outlook.com" className="text-[hsl(var(--primary-blue))] hover:underline text-xs sm:text-sm break-all">
+                  <a href="mailto:dirtworkslandscaping@outlook.com" onClick={handleEmailClick} className="text-[hsl(var(--primary-blue))] hover:underline text-xs sm:text-sm break-all">
                     dirtworkslandscaping@outlook.com
                   </a>
                 </div>

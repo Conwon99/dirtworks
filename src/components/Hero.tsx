@@ -35,7 +35,7 @@ const Hero = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://formspree.io/f/xgvljren', {
+      const response = await fetch('https://formspree.io/f/mgvnlora', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

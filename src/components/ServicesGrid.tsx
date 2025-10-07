@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { trackQuoteRequest, trackServiceClick } from "@/utils/analytics";
 
 type ServiceCard = {
   title: string;
@@ -42,7 +43,9 @@ const SERVICE_CARDS: ServiceCard[] = [
 ];
 
 const ServicesGrid = () => {
-  const handleQuoteClick = () => {
+  const handleQuoteClick = (serviceTitle: string) => {
+    trackQuoteRequest('services_grid', [serviceTitle]);
+    trackServiceClick(serviceTitle, 'services_grid');
     document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
   };
 
@@ -96,7 +99,7 @@ const ServicesGrid = () => {
                 </div>
 
                 <div className="mt-6">
-                  <Button onClick={handleQuoteClick} className="w-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-semibold rounded-full">
+                  <Button onClick={() => handleQuoteClick(service.title)} className="w-full bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-semibold rounded-full">
                     Request a Quote
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>

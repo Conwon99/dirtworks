@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
-import { trackPhoneCall } from "@/utils/analytics";
+import { trackPhoneCall, trackQuoteRequest } from "@/utils/analytics";
 import { Helmet } from "react-helmet-async";
 
 const FAQ = () => {
@@ -122,7 +122,10 @@ const FAQ = () => {
                 Call 07403 725998
               </a>
               <button
-                onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => {
+                  trackQuoteRequest('faq_section', []);
+                  document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
+                }}
                 className="inline-flex items-center justify-center px-6 py-3 border-2 border-[hsl(var(--primary-blue))] text-[hsl(var(--primary-blue))] rounded-full font-semibold hover:bg-[hsl(var(--primary-blue))] hover:text-white transition-colors"
               >
                 Get Free Quote

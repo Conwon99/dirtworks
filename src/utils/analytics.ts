@@ -192,3 +192,135 @@ export function trackExternalLink(url: string, linkText: string): void {
   }
 }
 
+export function trackButtonClick(buttonText: string, location: string, action?: string): void {
+  try {
+    if (typeof window === "undefined") return;
+
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "button_click", {
+        button_text: buttonText,
+        button_location: location,
+        action: action,
+      });
+    }
+
+    if (Array.isArray(window.dataLayer)) {
+      window.dataLayer.push({
+        event: "button_click",
+        button_text: buttonText,
+        button_location: location,
+        action: action,
+      });
+    }
+  } catch {
+    // Swallow errors
+  }
+}
+
+export function trackEmailClick(source: string): void {
+  try {
+    if (typeof window === "undefined") return;
+
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "email_click", {
+        source: source,
+      });
+    }
+
+    if (Array.isArray(window.dataLayer)) {
+      window.dataLayer.push({
+        event: "email_click",
+        source: source,
+      });
+    }
+  } catch {
+    // Swallow errors
+  }
+}
+
+export function trackWhatsAppClick(source: string): void {
+  try {
+    if (typeof window === "undefined") return;
+
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "whatsapp_click", {
+        source: source,
+      });
+    }
+
+    if (Array.isArray(window.dataLayer)) {
+      window.dataLayer.push({
+        event: "whatsapp_click",
+        source: source,
+      });
+    }
+  } catch {
+    // Swallow errors
+  }
+}
+
+export function trackGalleryInteraction(action: string, imageIndex?: number): void {
+  try {
+    if (typeof window === "undefined") return;
+
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "gallery_interaction", {
+        action: action,
+        image_index: imageIndex,
+      });
+    }
+
+    if (Array.isArray(window.dataLayer)) {
+      window.dataLayer.push({
+        event: "gallery_interaction",
+        action: action,
+        image_index: imageIndex,
+      });
+    }
+  } catch {
+    // Swallow errors
+  }
+}
+
+export function trackScrollDepth(depth: number): void {
+  try {
+    if (typeof window === "undefined") return;
+
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "scroll_depth", {
+        depth: depth,
+      });
+    }
+
+    if (Array.isArray(window.dataLayer)) {
+      window.dataLayer.push({
+        event: "scroll_depth",
+        depth: depth,
+      });
+    }
+  } catch {
+    // Swallow errors
+  }
+}
+
+export function trackTimeOnPage(timeInSeconds: number): void {
+  try {
+    if (typeof window === "undefined") return;
+
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "time_on_page", {
+        time_seconds: timeInSeconds,
+      });
+    }
+
+    if (Array.isArray(window.dataLayer)) {
+      window.dataLayer.push({
+        event: "time_on_page",
+        time_seconds: timeInSeconds,
+      });
+    }
+  } catch {
+    // Swallow errors
+  }
+}
+
