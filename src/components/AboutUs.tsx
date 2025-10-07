@@ -24,7 +24,7 @@ const AboutUs = () => {
               {/* Social Media Icons */}
               <div className="flex items-center gap-3 sm:gap-4">
                 <a 
-                  href="https://www.facebook.com/DirtworksLandscapingLtd" 
+                  href="https://www.facebook.com/profile.php?id=61573221204538" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 sm:w-12 sm:h-12 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors flex-shrink-0"

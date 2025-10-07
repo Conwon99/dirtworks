@@ -72,7 +72,7 @@ const Gallery = () => {
         {/* View More Button */}
         <div className="text-center mt-12">
           <a
-            href="https://www.facebook.com/people/Clyde-Decking/100095203176792/?_rdr"
+            href="https://www.facebook.com/profile.php?id=61573221204538"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-xl transition-colors duration-200 shadow-lg hover:shadow-xl"
