@@ -7,12 +7,12 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const galleryImages = [
-    { src: "/gallery/gallery1.jpg", alt: "Project photo 1" },
-    { src: "/gallery/Gallery 2..jpg", alt: "Project photo 2" },
-    { src: "/gallery/Gallery 3..jpg", alt: "Project photo 3" },
-    { src: "/gallery/Gallery 4..jpg", alt: "Project photo 4" },
-    { src: "/gallery/Gallery 5..jpg", alt: "Project photo 5" },
-    { src: "/gallery/Gallery 6..jpg", alt: "Project photo 6" }
+    { src: "/gallery/gallery1.webp", alt: "Project photo 1" },
+    { src: "/gallery/Gallery 2..webp", alt: "Project photo 2" },
+    { src: "/gallery/Gallery 3..webp", alt: "Project photo 3" },
+    { src: "/gallery/Gallery 4..webp", alt: "Project photo 4" },
+    { src: "/gallery/Gallery 5..webp", alt: "Project photo 5" },
+    { src: "/gallery/Gallery 6..webp", alt: "Project photo 6" }
   ];
 
   const openLightbox = (index: number) => {

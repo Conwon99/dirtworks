@@ -1,6 +1,6 @@
 import { MapPin } from "lucide-react";
 import WhatsAppIcon from "@/components/WhatsAppIcon";
-import { trackPhoneCall, trackMessenger } from "@/utils/analytics";
+import { trackPhoneCall, trackWhatsAppClick } from "@/utils/analytics";
 
 const ServiceAreas = () => {
   const serviceAreas = [
@@ -96,7 +96,7 @@ const ServiceAreas = () => {
                   href="https://wa.me/447403725998"
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={() => trackMessenger('service_areas')}
+                  onClick={() => trackWhatsAppClick('whatsapp_click_service_areas')}
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-primary text-primary rounded-full font-semibold hover:bg-primary hover:text-white transition-colors"
                 >
                   <WhatsAppIcon className="w-6 h-6" />

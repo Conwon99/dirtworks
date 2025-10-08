@@ -1,5 +1,5 @@
-# Robots.txt for Clyde Decking
-# https://clydedecking.netlify.app/
+# Robots.txt for Dirtworks Landscaping Ltd
+# https://dirtworkslandscaping.co.uk/
 
 User-agent: *
 Allow: /
@@ -34,7 +34,7 @@ User-agent: LinkedInBot
 Allow: /
 
 # Sitemap location
-Sitemap: https://clydedecking.netlify.app/sitemap.xml
+Sitemap: https://dirtworkslandscaping.co.uk/sitemap.xml
 
 # Crawl delay (helps with server load)
 Crawl-delay: 1

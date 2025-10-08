@@ -1,280 +1,259 @@
-# Local SEO Keywords Analysis for Maple Tree & Gardening Services
+# SEO Keyword Analysis - Dirtworks Landscaping Ltd
+## Domain: dirtworkslandscaping.co.uk
+## Service Area: Ayrshire & Glasgow, Scotland
 
-## 50 Local SEO Keywords
+---
 
-### Emergency Keywords (High Intent - Immediate Need)
-1. emergency tree removal troon
-2. storm damage tree work ayrshire
-3. urgent tree cutting troon
-4. fallen tree removal ayrshire
-5. emergency tree surgeon troon
-6. storm damage cleanup ayrshire
-7. urgent hedge cutting troon
-8. emergency garden clearance ayrshire
-9. fallen branch removal troon
-10. urgent tree pruning ayrshire
+## 🎯 50 HIGH-INTENT KEYWORDS
 
-### Service Keywords (Medium Intent - Planning Stage)
-11. tree surgery troon
-12. tree removal ayrshire
-13. hedge cutting troon
-14. lawn mowing ayrshire
-15. garden maintenance troon
-16. tree pruning ayrshire
-17. garden clearance troon
-18. fence installation ayrshire
-19. decking installation troon
-20. garden landscaping ayrshire
-21. tree stump removal troon
-22. hedge trimming ayrshire
-23. grass cutting troon
-24. garden strimming ayrshire
-25. tree felling troon
+### EMERGENCY / URGENT (High Intent, Immediate Need)
+1. "storm damage garden repair Ayrshire"
+2. "urgent fence fix Glasgow"
+3. "driveway flood repair Ayr"
+4. "emergency garden clearance Glasgow"
+5. "urgent patio repair Ayrshire"
+6. "storm damage landscaping Glasgow"
+7. "emergency tree removal Ayr"
+8. "urgent drainage fix Kilmarnock"
+9. "emergency garden restoration Glasgow"
+10. "urgent decking repair Ayrshire"
 
-### Problem Keywords (Low Intent - Research Stage)
-26. overgrown garden troon
-27. messy hedge ayrshire
-28. tall trees troon
-29. uneven lawn ayrshire
-30. garden weeds troon
-31. tree roots ayrshire
-32. garden debris troon
-33. hedge problems ayrshire
-34. lawn problems troon
-35. tree diseases ayrshire
+### SERVICE-SPECIFIC (High Commercial Intent)
+11. "garden maintenance Glasgow"
+12. "patio installation Ayrshire"
+13. "landscaping groundworks Kilmarnock"
+14. "fencing contractor Glasgow"
+15. "decking installation Ayr"
+16. "pressure washing Glasgow"
+17. "artificial grass installation Ayrshire"
+18. "driveway installation Glasgow"
+19. "garden landscaping Kilmarnock"
+20. "patio cleaning Ayrshire"
+21. "hedge trimming Glasgow"
+22. "lawn care Ayrshire"
+23. "garden design Glasgow"
+24. "landscaping services Kilmarnock"
+25. "garden clearance Ayr"
 
-### Local Keywords (Geographic Intent)
-36. gardener troon
-37. tree surgeon ayrshire
-38. lawn care troon
-39. garden services ayrshire
-40. tree work troon
-41. hedge cutting ayrshire
-42. garden maintenance troon
-43. tree removal ayrshire
-44. lawn mowing troon
-45. garden clearance ayrshire
-46. tree surgery prestwick
-47. garden services dundonald
-48. tree work ayr
-49. lawn care prestwick
-50. hedge cutting dundonald
+### PROBLEM / INFORMATIONAL (Educational Intent)
+26. "how to fix garden drainage Scotland"
+27. "patio weeds removal Ayrshire"
+28. "best plants for Glasgow gardens"
+29. "garden drainage problems Ayrshire"
+30. "how to maintain artificial grass"
+31. "patio cleaning tips Glasgow"
+32. "garden design ideas Ayrshire"
+33. "lawn care schedule Scotland"
+34. "fencing maintenance tips"
+35. "decking care guide Glasgow"
 
-## Search Intent Analysis
+### LOCAL / GEOGRAPHIC (Location-Based)
+36. "landscaper Ayr"
+37. "decking Glasgow"
+38. "fencing contractor Ayrshire"
+39. "garden services Kilmarnock"
+40. "landscaping Troon"
+41. "patio installation Prestwick"
+42. "garden maintenance Irvine"
+43. "landscaping Ardrossan"
+44. "fencing Saltcoats"
+45. "decking Largs"
+46. "garden services Girvan"
+47. "landscaping contractor Ayrshire"
+48. "professional landscaper Glasgow"
+49. "garden maintenance Scotland"
+50. "landscaping services Ayrshire"
 
-### Emergency (10 keywords)
-- **Intent**: Immediate action required
-- **Buying Stage**: Ready to buy
-- **Search Volume**: Low but high conversion
-- **Competition**: Medium
-- **Priority**: High (premium pricing possible)
+---
 
-### Service (15 keywords)
-- **Intent**: Looking for specific services
-- **Buying Stage**: Planning/considering
-- **Search Volume**: Medium
-- **Competition**: High
-- **Priority**: High (main revenue drivers)
+## 🗺️ KEYWORD MAP & PAGE TARGETING
 
-### Problem (10 keywords)
-- **Intent**: Problem awareness
-- **Buying Stage**: Early research
-- **Search Volume**: Medium
-- **Competition**: Medium
-- **Priority**: Medium (educational content)
-
-### Local (15 keywords)
-- **Intent**: Geographic relevance
-- **Buying Stage**: Varies
-- **Search Volume**: High
-- **Competition**: High
-- **Priority**: High (local SEO essential)
-
-## Keyword Map for Website Pages
-
-### Homepage
+### HOMEPAGE
 **Primary Keywords:**
-- gardener troon
-- tree surgeon ayrshire
-- garden services troon
-- tree work ayrshire
+- "professional landscaping Ayrshire & Glasgow"
+- "landscaping services Scotland"
+- "garden maintenance Ayrshire"
+- "landscaping contractor Glasgow"
 
 **Secondary Keywords:**
-- lawn care troon
-- garden maintenance ayrshire
-- tree surgery troon
-- hedge cutting ayrshire
+- "Dirtworks Landscaping"
+- "landscaping groundworks Ayrshire"
+- "garden services Glasgow"
 
-### Services Page
+### EMERGENCY / URGENT PAGE (New)
 **Primary Keywords:**
-- tree surgery troon
-- tree removal ayrshire
-- hedge cutting troon
-- lawn mowing ayrshire
-- garden maintenance troon
+- "emergency garden repair Ayrshire"
+- "storm damage landscaping Glasgow"
+- "urgent fence fix Glasgow"
+- "emergency garden clearance Ayrshire"
 
-**Secondary Keywords:**
-- tree pruning ayrshire
-- garden clearance troon
-- fence installation ayrshire
-- decking installation troon
-- tree stump removal ayrshire
+**Content Focus:**
+- 24/7 emergency services
+- Storm damage restoration
+- Urgent repairs and maintenance
+- Quick response times
 
-### About Page
+### SERVICE PAGES
+
+#### Garden Maintenance Page
 **Primary Keywords:**
-- qualified gardener troon
-- professional tree surgeon ayrshire
-- experienced gardener troon
-- certified tree work ayrshire
+- "garden maintenance Glasgow"
+- "lawn care Ayrshire"
+- "hedge trimming Glasgow"
+- "garden services Kilmarnock"
 
-**Secondary Keywords:**
-- local gardener troon
-- trusted tree surgeon ayrshire
-- reliable garden services troon
-- professional tree work ayrshire
-
-### Contact Page
+#### Landscaping & Groundworks Page
 **Primary Keywords:**
-- tree surgeon near me troon
-- gardener contact ayrshire
-- tree work quote troon
-- garden services contact ayrshire
+- "landscaping groundworks Kilmarnock"
+- "garden landscaping Glasgow"
+- "landscaping services Ayrshire"
+- "groundworks contractor Glasgow"
 
-**Secondary Keywords:**
-- emergency tree removal troon
-- urgent tree work ayrshire
-- tree surgery quote troon
-- garden maintenance contact ayrshire
-
-### Location-Specific Pages
-
-#### Troon Page
+#### Patios, Fencing & Decking Page
 **Primary Keywords:**
-- tree surgery troon
-- gardener troon
-- lawn care troon
-- hedge cutting troon
+- "patio installation Ayrshire"
+- "fencing contractor Glasgow"
+- "decking installation Ayr"
+- "patio cleaning Glasgow"
+
+#### Pressure Washing Page
+**Primary Keywords:**
+- "pressure washing Glasgow"
+- "driveway cleaning Ayrshire"
+- "patio cleaning Kilmarnock"
+- "pressure washing services Ayr"
+
+#### Building Services Page
+**Primary Keywords:**
+- "building services Glasgow"
+- "general building Ayrshire"
+- "small extensions Glasgow"
+- "building contractor Ayrshire"
+
+### LOCATION PAGES
 
 #### Ayrshire Page
 **Primary Keywords:**
-- tree work ayrshire
-- garden services ayrshire
-- tree removal ayrshire
-- lawn mowing ayrshire
+- "landscaping Ayrshire"
+- "garden services Ayrshire"
+- "landscaping contractor Ayrshire"
+- "garden maintenance Ayrshire"
 
-#### Prestwick Page
+**Local Towns:**
+- Ayr, Kilmarnock, Irvine, Troon, Prestwick, Ardrossan, Saltcoats, Largs, Girvan
+
+#### Glasgow Page
 **Primary Keywords:**
-- tree surgery prestwick
-- garden services prestwick
-- lawn care prestwick
-- hedge cutting prestwick
+- "landscaping Glasgow"
+- "garden services Glasgow"
+- "landscaping contractor Glasgow"
+- "garden maintenance Glasgow"
 
-#### Dundonald Page
-**Primary Keywords:**
-- garden services dundonald
-- tree work dundonald
-- hedge cutting dundonald
-- lawn care dundonald
+**Local Areas:**
+- City Centre, West End, East End, Southside, North Glasgow
 
-#### Ayr Page
-**Primary Keywords:**
-- tree work ayr
-- tree surgery ayr
-- garden services ayr
-- tree removal ayr
+### BLOG CONTENT PLAN (10 Posts)
 
-### Emergency Services Page
-**Primary Keywords:**
-- emergency tree removal troon
-- storm damage tree work ayrshire
-- urgent tree cutting troon
-- fallen tree removal ayrshire
+1. **"How to Fix Garden Drainage Problems in Ayrshire"**
+   - Target: "garden drainage problems Ayrshire"
+   - Local context: Scottish weather, clay soil
 
-**Secondary Keywords:**
-- emergency tree surgeon troon
-- storm damage cleanup ayrshire
-- urgent hedge cutting troon
-- emergency garden clearance ayrshire
+2. **"Best Plants for Glasgow Gardens: A Complete Guide"**
+   - Target: "best plants for Glasgow gardens"
+   - Local context: Glasgow climate, urban gardening
 
-### Problem-Solution Pages
+3. **"Patio Cleaning Tips: Before and After Pressure Washing"**
+   - Target: "patio cleaning tips Glasgow"
+   - Local context: Scottish weather effects
 
-#### Overgrown Garden Page
-**Primary Keywords:**
-- overgrown garden troon
-- messy garden ayrshire
-- garden clearance troon
-- garden cleanup ayrshire
+4. **"Artificial Grass Installation: Complete Guide for Ayrshire Homes"**
+   - Target: "artificial grass installation Ayrshire"
+   - Local context: Weather suitability, maintenance
 
-#### Tree Problems Page
-**Primary Keywords:**
-- tall trees troon
-- tree roots ayrshire
-- tree diseases troon
-- tree problems ayrshire
+5. **"Fencing Maintenance: Keep Your Glasgow Fence Looking Great"**
+   - Target: "fencing maintenance tips"
+   - Local context: Scottish weather, wind damage
 
-#### Lawn Problems Page
-**Primary Keywords:**
-- uneven lawn ayrshire
-- lawn problems troon
-- grass cutting troon
-- lawn care ayrshire
+6. **"Garden Design Ideas for Small Ayrshire Gardens"**
+   - Target: "garden design ideas Ayrshire"
+   - Local context: Local architecture, space constraints
 
-## Content Strategy Recommendations
+7. **"Lawn Care Schedule: Year-Round Guide for Scotland"**
+   - Target: "lawn care schedule Scotland"
+   - Local context: Scottish seasons, grass types
 
-### High Priority Content
-1. **Emergency tree removal** - Create dedicated landing page
-2. **Service-specific pages** - Individual pages for each service
-3. **Location pages** - Dedicated pages for each service area
-4. **Problem-solution content** - Address common garden problems
+8. **"Decking Care Guide: Maintenance for Glasgow Weather"**
+   - Target: "decking care guide Glasgow"
+   - Local context: Weather protection, longevity
 
-### Medium Priority Content
-1. **Seasonal content** - Spring/autumn garden care
-2. **Educational content** - Tree care tips, lawn maintenance
-3. **Case studies** - Before/after project examples
-4. **FAQ pages** - Common questions about services
+9. **"Storm Damage Garden Repair: What to Do After Bad Weather"**
+   - Target: "storm damage garden repair Ayrshire"
+   - Local context: Scottish storms, emergency response
 
-### Long-tail Keyword Opportunities
-- "best tree surgeon in troon"
-- "affordable garden maintenance ayrshire"
-- "reliable hedge cutting service troon"
-- "professional tree removal near me ayrshire"
-- "experienced gardener troon ayrshire"
+10. **"How to Choose the Right Landscaping Contractor in Glasgow"**
+    - Target: "landscaping contractor Glasgow"
+    - Local context: Local regulations, insurance, credentials
 
-## Local SEO Implementation
+---
 
-### Google My Business
-- Use primary keywords in business description
-- Include service areas in GMB categories
-- Add location-specific keywords to posts
+## 🎯 LOW-COMPETITION, HIGH-INTENT OPPORTUNITIES
 
-### Website Optimization
-- Include location keywords in page titles
-- Add local schema markup
+### Underserved Keywords:
+1. "groundworks contractor Glasgow" (Low competition, high intent)
+2. "garden restoration Ayrshire" (Emerging keyword)
+3. "landscaping insurance Glasgow" (Commercial intent)
+4. "garden maintenance contract Ayrshire" (B2B opportunity)
+5. "sustainable landscaping Glasgow" (Growing trend)
+
+### Long-tail Opportunities:
+1. "professional garden maintenance service Ayrshire"
+2. "experienced landscaping contractor Glasgow"
+3. "reliable fence installation Ayrshire"
+4. "quality patio cleaning Glasgow"
+5. "trusted decking contractor Ayrshire"
+
+---
+
+## 📊 KEYWORD DIFFICULTY & PRIORITY MATRIX
+
+### HIGH PRIORITY (High Intent + Low-Medium Competition)
+- "garden maintenance Glasgow" - Priority 1
+- "patio installation Ayrshire" - Priority 1
+- "fencing contractor Glasgow" - Priority 1
+- "landscaping services Kilmarnock" - Priority 1
+- "pressure washing Glasgow" - Priority 2
+
+### MEDIUM PRIORITY (Medium Intent + Low Competition)
+- "garden design Glasgow" - Priority 2
+- "artificial grass installation Ayrshire" - Priority 2
+- "decking installation Ayr" - Priority 2
+- "garden clearance Glasgow" - Priority 3
+
+### LONG-TERM TARGETS (High Competition + High Volume)
+- "landscaping Glasgow" - Priority 3
+- "garden services Ayrshire" - Priority 3
+- "landscaping contractor Glasgow" - Priority 3
+
+---
+
+## 🚀 IMPLEMENTATION STRATEGY
+
+### Phase 1: Foundation (Weeks 1-2)
+- Optimize homepage for primary keywords
+- Create service pages with targeted content
+- Implement location pages for Ayrshire and Glasgow
+
+### Phase 2: Content Expansion (Weeks 3-6)
+- Publish blog content targeting informational keywords
+- Expand service pages with detailed content
+- Add local context and neighborhood references
+
+### Phase 3: Authority Building (Weeks 7-12)
+- Target long-tail keywords
+- Build internal linking structure
 - Create location-specific landing pages
-- Optimize for "near me" searches
 
-### Content Marketing
-- Create location-specific blog posts
-- Share seasonal gardening tips
-- Showcase local projects
-- Address local garden problems
-
-## Keyword Difficulty Assessment
-
-### Easy (Target First)
-- emergency tree removal troon
-- tree surgeon prestwick
-- garden services dundonald
-- lawn care ayr
-
-### Medium (Target Second)
-- tree surgery troon
-- hedge cutting ayrshire
-- garden maintenance troon
-- tree work ayrshire
-
-### Hard (Target Long-term)
-- gardener troon
-- tree surgeon ayrshire
-- garden services ayrshire
-- lawn care ayrshire
+### Phase 4: Domination (Weeks 13-24)
+- Target high-competition keywords
+- Expand to additional service areas
+- Build topical authority through content clusters

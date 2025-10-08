@@ -38,7 +38,7 @@ const Reviews = () => {
   };
 
   return (
-    <section id="reviews" className="py-20 px-4 relative overflow-hidden" style={{ backgroundImage: 'url(/gallery/Groundwork.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+    <section id="reviews" className="py-20 px-4 relative overflow-hidden" style={{ backgroundImage: 'url(/gallery/gallery1.webp)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
       

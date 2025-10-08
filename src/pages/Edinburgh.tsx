@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { MapPin, Star, Clock, Shield, Award, Phone, MessageCircle } from 'lucide-react';
 import LazyImage from '@/components/LazyImage';
 import WhatsAppIcon from '@/components/WhatsAppIcon';
-import { trackPhoneCall, trackMessenger } from '@/utils/analytics';
+import { trackPhoneCall, trackWhatsAppClick } from '@/utils/analytics';
 
 const Edinburgh = () => {
   const localLandmarks = [
@@ -112,7 +112,7 @@ const Edinburgh = () => {
                   href="https://wa.me/447495295903"
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={() => trackMessenger('edinburgh_hero')}
+                  onClick={() => trackWhatsAppClick('whatsapp_click_edinburgh_hero')}
                   className="inline-flex items-center justify-center px-8 py-4 border-2 border-primary text-primary rounded-full font-semibold hover:bg-primary hover:text-white transition-colors"
                 >
                   <WhatsAppIcon className="w-5 h-5 mr-2" />
@@ -305,7 +305,7 @@ const Edinburgh = () => {
                 href="https://wa.me/447495295903"
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={() => trackMessenger('edinburgh_cta')}
+                onClick={() => trackWhatsAppClick('whatsapp_click_edinburgh_cta')}
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white rounded-full font-semibold hover:bg-white hover:text-primary transition-colors"
               >
                 <WhatsAppIcon className="w-5 h-5 mr-2" />

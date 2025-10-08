@@ -14,31 +14,31 @@ const SERVICE_CARDS: ServiceCard[] = [
     title: "Garden Maintenance",
     description: "Reliable upkeep to keep your garden healthy and tidy all year round",
     features: ["Lawn care", "Hedge trimming", "Planting & tidy-ups", "Seasonal maintenance"],
-    image: "/Services/Dirt Works Gardening.jpg",
+    image: "/Services/Dirt Works Gardening.webp",
   },
   {
     title: "Landscaping & Groundworks",
     description: "Complete site preparation and outdoor landscaping solutions",
     features: ["Site preparation", "Drainage systems", "Foundations", "Excavation"],
-    image: "/Services/Dirt Works at Groundwork..jpg",
+    image: "/Services/Dirt Works at Groundwork..webp",
   },
   {
     title: "Patios, Fencing & Decking",
     description: "Quality hardscaping installations built to last",
     features: ["Patios", "Fencing", "Decking", "Repairs & installation"],
-    image: "/Services/dirt landscaping fencing..jpg",
+    image: "/Services/dirt landscaping fencing..webp",
   },
   {
     title: "Pressure Washing",
     description: "Restore the look of your outdoor surfaces",
     features: ["Driveways & patios", "Paths & walls", "Stain removal", "Soft-wash options"],
-    image: "/Services/Dirtworks pressure washing..jpg",
+    image: "/Services/Dirtworks pressure washing..webp",
   },
   {
     title: "Building Services",
     description: "General building, repairs and small extensions",
     features: ["Brickwork", "Repairs", "Small extensions", "General building"],
-    image: "/Services/Dirtworks building..jpg",
+    image: "/Services/Dirtworks building..webp",
   },
 ];
 

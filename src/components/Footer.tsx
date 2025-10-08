@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Facebook } from "lucide-react";
+import { Link } from "react-router-dom";
 import { trackExternalLink } from "@/utils/analytics";
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white py-16 px-4">
       <div className="container mx-auto max-w-6xl relative z-10">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div className="space-y-6">
             <div>
@@ -43,29 +44,29 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3 text-white">
               <li>
-                <a href="#services" className="hover:text-gray-300 transition-colors">
+                <Link to="/garden-maintenance" className="hover:text-gray-300 transition-colors">
                   • Garden Maintenance
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="hover:text-gray-300 transition-colors">
+                <Link to="/landscaping-groundworks" className="hover:text-gray-300 transition-colors">
                   • Landscaping & Groundworks
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="hover:text-gray-300 transition-colors">
+                <Link to="/patios-fencing-decking" className="hover:text-gray-300 transition-colors">
                   • Patios, Fencing & Decking
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="hover:text-gray-300 transition-colors">
+                <Link to="/pressure-washing" className="hover:text-gray-300 transition-colors">
                   • Pressure Washing
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="hover:text-gray-300 transition-colors">
+                <Link to="/building-services" className="hover:text-gray-300 transition-colors">
                   • Building Services
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -77,14 +78,14 @@ const Footer = () => {
             </h4>
             <ul className="space-y-3 text-white">
               <li>
-                <a href="#about" className="hover:text-gray-300 transition-colors">
+                <Link to="/ayrshire" className="hover:text-gray-300 transition-colors">
                   • Landscaping in Ayrshire
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#about" className="hover:text-gray-300 transition-colors">
+                <Link to="/glasgow" className="hover:text-gray-300 transition-colors">
                   • Landscaping in Glasgow
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#about" className="hover:text-gray-300 transition-colors">

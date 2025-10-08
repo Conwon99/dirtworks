@@ -1,412 +1,377 @@
-# SEO Content Strategy for Maple Tree & Gardens
-
-## 🎯 **Content Strategy Overview**
-
-**Goal**: Expand content across the site for SEO without cluttering the homepage
-**Target**: Local SEO dominance in Troon & Ayrshire for gardening and tree services
-**Approach**: Long-form, location-specific content with problem-solving focus
+# SEO Content Strategy - Dirtworks Landscaping Ltd
+## Domain: dirtworkslandscaping.co.uk
 
 ---
 
-## 📄 **1. SERVICE PAGES (800-1,200 words each)**
+## 📝 CONTENT EXPLOSION STRATEGY
 
-### **Tree Surgery Service Page**
-**Primary Keyword**: "tree surgery troon"
-**Secondary Keywords**: "tree removal ayrshire", "emergency tree removal troon", "tree pruning prestwick"
-
-**Content Structure**:
-```
-H1: Professional Tree Surgery Services in Troon & Ayrshire
-H2: Why Choose Our Tree Surgery Services?
-H2: Our Tree Surgery Process
-H2: Emergency Tree Removal Services
-H2: Tree Surgery Services We Offer
-  H3: Tree Removal & Felling
-  H3: Tree Pruning & Crown Reduction
-  H3: Stump Grinding & Removal
-  H3: Storm Damage Cleanup
-H2: Local Tree Surgery Challenges in Ayrshire
-H2: Tree Surgery FAQs
-H2: Contact Maple Tree & Gardens for Tree Surgery
-```
-
-**Key Content Points**:
-- 20+ years experience in Ayrshire
-- PA1 & PA6 certified for safe operations
-- Emergency response for storm damage
-- Local knowledge of Ayrshire tree species
-- Insurance and safety protocols
-
-**Internal Links**: Homepage → About → Contact → Location pages
+### Overview
+This content strategy focuses on creating high-value, SEO-optimized content that targets specific keywords and provides genuine value to potential customers in Glasgow and Ayrshire.
 
 ---
 
-### **Lawn Mowing & Turf Care Service Page**
-**Primary Keyword**: "lawn mowing troon"
-**Secondary Keywords**: "grass cutting ayrshire", "lawn care prestwick", "turf maintenance troon"
+## 🎯 10-POST BLOG CONTENT PLAN
 
-**Content Structure**:
-```
-H1: Professional Lawn Mowing & Turf Care in Troon & Ayrshire
-H2: Why Regular Lawn Mowing Matters in Ayrshire
-H2: Our Lawn Care Services
-  H3: Regular Lawn Mowing
-  H3: Grass Cutting & Edging
-  H3: Lawn Fertilization
-  H3: Seasonal Lawn Treatments
-H2: Ayrshire Lawn Care Challenges
-  H3: Coastal Soil Conditions
-  H3: Weather Considerations
-  H3: Common Lawn Problems
-H2: Lawn Care Process & Schedule
-H2: Lawn Care FAQs
-H2: Contact Maple Tree & Gardens for Lawn Care
-```
+### 1. "How to Fix Garden Drainage Problems in Ayrshire"
+**Target Keywords**: "garden drainage problems Ayrshire", "drainage solutions Glasgow", "garden flooding Scotland"
+**Word Count**: 1,200+ words
+**Content Focus**:
+- Common drainage issues in Ayrshire's clay soil
+- Step-by-step drainage solutions
+- Local weather considerations
+- When to call professionals
+- Cost estimates and DIY vs professional options
 
-**Key Content Points**:
-- Coastal soil challenges in Troon/Prestwick
-- Seasonal lawn care schedule
-- Local grass species knowledge
-- Weather-resistant lawn care
+**Internal Links**:
+- Link to garden maintenance services
+- Link to landscaping & groundworks page
+- Link to contact form for drainage consultations
 
-**Internal Links**: Homepage → Services → Location pages → Blog posts
+### 2. "Best Plants for Glasgow Gardens: A Complete Guide"
+**Target Keywords**: "best plants for Glasgow gardens", "Glasgow garden plants", "Scottish garden plants"
+**Word Count**: 1,500+ words
+**Content Focus**:
+- Plants suited to Glasgow's climate
+- Seasonal planting guide
+- Soil preparation for Glasgow gardens
+- Maintenance tips for each plant type
+- Local garden center recommendations
 
----
+**Internal Links**:
+- Link to garden maintenance services
+- Link to garden design services
+- Link to seasonal maintenance information
 
-### **Hedge Cutting & Shaping Service Page**
-**Primary Keyword**: "hedge cutting troon"
-**Secondary Keywords**: "hedge trimming ayrshire", "hedge shaping prestwick", "garden boundaries troon"
+### 3. "Patio Cleaning Tips: Before and After Pressure Washing"
+**Target Keywords**: "patio cleaning tips Glasgow", "pressure washing patio", "patio maintenance Ayrshire"
+**Word Count**: 1,000+ words
+**Content Focus**:
+- Pre-cleaning preparation steps
+- Pressure washing techniques
+- Post-cleaning maintenance
+- Frequency recommendations
+- DIY vs professional cleaning
 
-**Content Structure**:
-```
-H1: Professional Hedge Cutting & Shaping in Troon & Ayrshire
-H2: Benefits of Professional Hedge Cutting
-H2: Our Hedge Services
-  H3: Hedge Cutting & Trimming
-  H3: Hedge Shaping & Topiary
-  H3: Hedge Height Reduction
-  H3: Hedge Renovation
-H2: Popular Hedge Types in Ayrshire
-H2: Hedge Cutting Schedule & Timing
-H2: Local Hedge Challenges
-  H3: Coastal Wind Damage
-  H3: Salt Spray Effects
-H2: Hedge Care FAQs
-H2: Contact Maple Tree & Gardens for Hedge Services
-```
+**Internal Links**:
+- Link to pressure washing services
+- Link to patio installation services
+- Link to maintenance contracts
 
-**Key Content Points**:
-- Coastal hedge challenges (wind, salt spray)
-- Popular Ayrshire hedge species
-- Seasonal cutting schedules
-- Boundary hedge maintenance
+### 4. "Artificial Grass Installation: Complete Guide for Ayrshire Homes"
+**Target Keywords**: "artificial grass installation Ayrshire", "fake grass Glasgow", "artificial lawn Scotland"
+**Word Count**: 1,800+ words
+**Content Focus**:
+- Benefits of artificial grass in Scottish climate
+- Installation process step-by-step
+- Maintenance requirements
+- Cost analysis and ROI
+- Local supplier recommendations
 
-**Internal Links**: Homepage → Services → Location pages → Blog posts
+**Internal Links**:
+- Link to landscaping services
+- Link to garden maintenance
+- Link to installation services
 
----
+### 5. "Fencing Maintenance: Keep Your Glasgow Fence Looking Great"
+**Target Keywords**: "fencing maintenance tips", "fence repair Glasgow", "fence maintenance Ayrshire"
+**Word Count**: 1,200+ words
+**Content Focus**:
+- Common fence problems in Scottish weather
+- Maintenance schedule and checklist
+- Repair techniques for different fence types
+- Weather protection strategies
+- When to replace vs repair
 
-### **Garden Landscaping Service Page**
-**Primary Keyword**: "garden landscaping troon"
-**Secondary Keywords**: "garden design ayrshire", "landscaping prestwick", "garden transformation troon"
+**Internal Links**:
+- Link to fencing services
+- Link to building services
+- Link to maintenance contracts
 
-**Content Structure**:
-```
-H1: Professional Garden Landscaping in Troon & Ayrshire
-H2: Transform Your Garden with Professional Landscaping
-H2: Our Landscaping Services
-  H3: Garden Design & Planning
-  H3: Patio & Pathway Installation
-  H3: Planting & Garden Beds
-  H3: Garden Lighting & Features
-H2: Ayrshire Garden Landscaping Considerations
-  H3: Coastal Garden Design
-  H3: Soil Conditions & Plant Selection
-  H3: Weather-Resistant Landscaping
-H2: Our Landscaping Process
-H2: Landscaping FAQs
-H2: Contact Maple Tree & Gardens for Landscaping
-```
+### 6. "Garden Design Ideas for Small Ayrshire Gardens"
+**Target Keywords**: "garden design ideas Ayrshire", "small garden design Glasgow", "compact garden solutions"
+**Word Count**: 1,400+ words
+**Content Focus**:
+- Space-maximizing design techniques
+- Plant selection for small spaces
+- Vertical gardening solutions
+- Storage and functionality
+- Local garden design examples
 
-**Key Content Points**:
-- Coastal garden design principles
-- Ayrshire soil and climate considerations
-- Weather-resistant plant selection
-- Local garden style preferences
+**Internal Links**:
+- Link to garden design services
+- Link to landscaping services
+- Link to consultation services
 
-**Internal Links**: Homepage → Services → Location pages → Blog posts
+### 7. "Lawn Care Schedule: Year-Round Guide for Scotland"
+**Target Keywords**: "lawn care schedule Scotland", "Scottish lawn maintenance", "lawn care calendar Glasgow"
+**Word Count**: 1,600+ words
+**Content Focus**:
+- Monthly lawn care tasks
+- Seasonal considerations for Scottish climate
+- Grass type recommendations
+- Fertilizer and treatment schedules
+- Problem identification and solutions
 
----
+**Internal Links**:
+- Link to lawn care services
+- Link to garden maintenance
+- Link to seasonal maintenance packages
 
-### **Pesticide & Weed Control Service Page**
-**Primary Keyword**: "pesticide application troon"
-**Secondary Keywords**: "weed control ayrshire", "PA1 certified prestwick", "professional weed killer troon"
+### 8. "Decking Care Guide: Maintenance for Glasgow Weather"
+**Target Keywords**: "decking care guide Glasgow", "deck maintenance Scotland", "deck cleaning Ayrshire"
+**Word Count**: 1,100+ words
+**Content Focus**:
+- Weather protection for decking
+- Cleaning and maintenance schedule
+- Repair techniques
+- Staining and sealing tips
+- Longevity and replacement timing
 
-**Content Structure**:
-```
-H1: Professional Pesticide & Weed Control in Troon & Ayrshire
-H2: Why Choose PA1 & PA6 Certified Weed Control?
-H2: Our Weed Control Services
-  H3: Professional Pesticide Application
-  H3: Weed Prevention & Treatment
-  H3: Lawn Weed Control
-  H3: Garden Bed Weed Management
-H2: Common Weeds in Ayrshire Gardens
-H2: Safe Pesticide Application Process
-H2: PA1 & PA6 Certification Benefits
-H2: Weed Control FAQs
-H2: Contact Maple Tree & Gardens for Weed Control
-```
+**Internal Links**:
+- Link to decking services
+- Link to pressure washing
+- Link to maintenance services
 
-**Key Content Points**:
-- PA1 & PA6 certification importance
-- Safe pesticide application
-- Common Ayrshire weeds
-- Environmental responsibility
+### 9. "Storm Damage Garden Repair: What to Do After Bad Weather"
+**Target Keywords**: "storm damage garden repair Ayrshire", "emergency garden repair Glasgow", "storm damage landscaping"
+**Word Count**: 1,300+ words
+**Content Focus**:
+- Immediate post-storm assessment
+- Safety considerations
+- DIY repair techniques
+- When to call professionals
+- Insurance and documentation tips
 
-**Internal Links**: Homepage → About (certifications) → Services → Location pages
+**Internal Links**:
+- Link to emergency services
+- Link to garden maintenance
+- Link to storm damage repair services
 
----
+### 10. "How to Choose the Right Landscaping Contractor in Glasgow"
+**Target Keywords**: "landscaping contractor Glasgow", "how to choose landscaper", "landscaping contractor Ayrshire"
+**Word Count**: 1,500+ words
+**Content Focus**:
+- Questions to ask potential contractors
+- Red flags to avoid
+- Credentials and insurance requirements
+- Getting and comparing quotes
+- Local regulations and permits
 
-## 📍 **2. LOCATION PAGES (800-1,000 words each)**
-
-### **Troon Location Page**
-**Primary Keyword**: "gardener troon"
-**Secondary Keywords**: "tree surgery troon", "lawn care troon", "garden services troon"
-
-**Content Structure**:
-```
-H1: Professional Garden Services in Troon, Ayrshire
-H2: Why Choose Maple Tree & Gardens in Troon?
-H2: Troon Garden Challenges & Solutions
-  H3: Coastal Soil Conditions
-  H3: Salt Spray & Wind Damage
-  H3: Troon Weather Considerations
-H2: Our Services in Troon
-  H3: Tree Surgery in Troon
-  H3: Lawn Care in Troon
-  H3: Hedge Cutting in Troon
-  H3: Garden Landscaping in Troon
-H2: Troon Neighborhoods We Serve
-  H3: Troon Town Centre
-  H3: Barassie
-  H3: Fullarton
-  H3: Loans
-H2: Local Troon References
-H2: Contact Maple Tree & Gardens in Troon
-```
-
-**Local References**:
-- Troon Golf Course area
-- Royal Troon Golf Club
-- Troon Harbour
-- Coastal path gardens
-- Barassie beach area
+**Internal Links**:
+- Link to about us page
+- Link to services overview
+- Link to contact form
+- Link to testimonials
 
 ---
 
-### **Prestwick Location Page**
-**Primary Keyword**: "gardener prestwick"
-**Secondary Keywords**: "tree surgery prestwick", "lawn care prestwick", "garden services prestwick"
+## 📍 LOCATION PAGE EXPANSION
 
-**Content Structure**:
-```
-H1: Professional Garden Services in Prestwick, Ayrshire
-H2: Why Choose Maple Tree & Gardens in Prestwick?
-H2: Prestwick Garden Challenges & Solutions
-  H3: Airport Proximity Considerations
-  H3: Coastal Garden Conditions
-  H3: Prestwick Soil Types
-H2: Our Services in Prestwick
-  H3: Tree Surgery in Prestwick
-  H3: Lawn Care in Prestwick
-  H3: Hedge Cutting in Prestwick
-  H3: Garden Landscaping in Prestwick
-H2: Prestwick Areas We Serve
-  H3: Prestwick Town Centre
-  H3: Monkton
-  H3: Prestwick Airport Area
-  H3: Prestwick Beach
-H2: Local Prestwick References
-H2: Contact Maple Tree & Gardens in Prestwick
-```
+### Ayrshire Page (1,200+ words)
+**Target Keywords**: "landscaping Ayrshire", "garden services Ayrshire", "landscaping contractor Ayrshire"
+**Content Sections**:
+1. **Introduction** (200 words)
+   - Overview of Ayrshire's landscape and climate
+   - Local challenges and opportunities
 
-**Local References**:
-- Prestwick Airport area
-- Prestwick Golf Club
-- Prestwick beach gardens
-- Monkton village
-- Prestwick town centre
+2. **Service Areas** (300 words)
+   - Detailed coverage of all Ayrshire towns
+   - Local knowledge and expertise
 
----
+3. **Local Conditions** (300 words)
+   - Soil types and climate considerations
+   - Weather patterns and seasonal challenges
 
-### **Ayrshire Regional Page**
-**Primary Keyword**: "garden services ayrshire"
-**Secondary Keywords**: "tree surgery ayrshire", "lawn care ayrshire", "gardener ayrshire"
+4. **Services in Ayrshire** (300 words)
+   - Tailored services for local conditions
+   - Specialized solutions for Ayrshire properties
 
-**Content Structure**:
-```
-H1: Professional Garden Services Across Ayrshire
-H2: Why Choose Maple Tree & Gardens in Ayrshire?
-H2: Ayrshire Garden Challenges & Solutions
-  H3: Coastal vs Inland Conditions
-  H3: Ayrshire Soil Types
-  H3: Regional Weather Patterns
-H2: Our Services Across Ayrshire
-  H3: Tree Surgery in Ayrshire
-  H3: Lawn Care in Ayrshire
-  H3: Hedge Cutting in Ayrshire
-  H3: Garden Landscaping in Ayrshire
-H2: Ayrshire Areas We Serve
-  H3: South Ayrshire
-  H3: East Ayrshire
-  H3: North Ayrshire
-H2: Local Ayrshire References
-H2: Contact Maple Tree & Gardens in Ayrshire
-```
+5. **Local Knowledge** (100 words)
+   - Understanding of local regulations
+   - Community involvement and local partnerships
 
-**Local References**:
-- Ayrshire coast
-- Ayrshire countryside
-- Local golf courses
-- Ayrshire farming heritage
-- Regional garden shows
+### Glasgow Page (1,200+ words)
+**Target Keywords**: "landscaping Glasgow", "garden services Glasgow", "landscaping contractor Glasgow"
+**Content Sections**:
+1. **Introduction** (200 words)
+   - Glasgow's urban landscape challenges
+   - Opportunities for garden transformation
+
+2. **Service Areas** (300 words)
+   - Coverage of all Glasgow districts
+   - Urban vs suburban considerations
+
+3. **Urban Gardening** (300 words)
+   - Space optimization techniques
+   - Urban-specific plant selection
+
+4. **Services in Glasgow** (300 words)
+   - Urban landscaping solutions
+   - Building and maintenance services
+
+5. **Local Knowledge** (100 words)
+   - Glasgow planning requirements
+   - Local supplier relationships
 
 ---
 
-## 📝 **3. BLOG POST IDEAS (10+ Problem & How-To Keywords)**
+## 🏗️ SERVICE PAGE EXPANSION
 
-### **Problem-Solving Blog Posts**:
+### Garden Maintenance Page (800+ words)
+**Target Keywords**: "garden maintenance Glasgow", "lawn care Ayrshire", "hedge trimming Glasgow"
+**Content Sections**:
+1. **Service Overview** (150 words)
+2. **Detailed Services** (400 words)
+3. **Why Choose Us** (150 words)
+4. **Service Areas** (100 words)
 
-1. **"How to Fix Patchy Lawns in Coastal Soil - Ayrshire Guide"**
-   - Keywords: "patchy lawn coastal soil", "lawn problems ayrshire"
-   - Target: Lawn care service page
+### Landscaping & Groundworks Page (800+ words)
+**Target Keywords**: "landscaping groundworks Kilmarnock", "site preparation Glasgow", "groundworks contractor Ayrshire"
+**Content Sections**:
+1. **Service Overview** (150 words)
+2. **Process and Methods** (400 words)
+3. **Equipment and Materials** (150 words)
+4. **Local Expertise** (100 words)
 
-2. **"Why Your Hedges Keep Dying in Troon - Salt Spray Solutions"**
-   - Keywords: "hedge problems troon", "salt spray damage"
-   - Target: Hedge cutting service page
+### Patios, Fencing & Decking Page (800+ words)
+**Target Keywords**: "patio installation Ayrshire", "fencing contractor Glasgow", "decking installation Ayr"
+**Content Sections**:
+1. **Service Overview** (150 words)
+2. **Installation Process** (400 words)
+3. **Materials and Options** (150 words)
+4. **Maintenance and Care** (100 words)
 
-3. **"Emergency Tree Removal After Storms - What to Do in Ayrshire"**
-   - Keywords: "emergency tree removal ayrshire", "storm damage trees"
-   - Target: Tree surgery service page
+### Pressure Washing Page (800+ words)
+**Target Keywords**: "pressure washing Glasgow", "driveway cleaning Ayrshire", "patio cleaning Kilmarnock"
+**Content Sections**:
+1. **Service Overview** (150 words)
+2. **Cleaning Process** (400 words)
+3. **Equipment and Techniques** (150 words)
+4. **Results and Maintenance** (100 words)
 
-4. **"Common Weeds in Ayrshire Gardens and How to Control Them"**
-   - Keywords: "ayrshire garden weeds", "weed control prestwick"
-   - Target: Pesticide service page
-
-5. **"Garden Drainage Problems in Prestwick - Solutions Guide"**
-   - Keywords: "garden drainage prestwick", "waterlogged soil"
-   - Target: Landscaping service page
-
-### **How-To Blog Posts**:
-
-6. **"How to Prepare Your Garden for Ayrshire Winter"**
-   - Keywords: "winter garden preparation ayrshire", "garden winter care"
-   - Target: Multiple service pages
-
-7. **"How to Choose the Right Trees for Coastal Gardens in Troon"**
-   - Keywords: "coastal garden trees troon", "wind resistant trees"
-   - Target: Tree surgery service page
-
-8. **"How to Create a Low-Maintenance Garden in Ayrshire"**
-   - Keywords: "low maintenance garden ayrshire", "easy care garden"
-   - Target: Landscaping service page
-
-9. **"How to Maintain Your Lawn in Ayrshire's Variable Weather"**
-   - Keywords: "lawn maintenance ayrshire", "weather resistant lawn"
-   - Target: Lawn care service page
-
-10. **"How to Protect Your Garden from Salt Spray in Coastal Ayrshire"**
-    - Keywords: "salt spray garden protection", "coastal garden care"
-    - Target: Multiple service pages
-
-### **Seasonal Blog Posts**:
-
-11. **"Spring Garden Checklist for Ayrshire Homeowners"**
-    - Keywords: "spring garden checklist ayrshire", "garden spring preparation"
-    - Target: Homepage and service pages
-
-12. **"Autumn Tree Care in Troon - What You Need to Know"**
-    - Keywords: "autumn tree care troon", "tree preparation winter"
-    - Target: Tree surgery service page
+### Building Services Page (800+ words)
+**Target Keywords**: "building services Glasgow", "general building Ayrshire", "small extensions Glasgow"
+**Content Sections**:
+1. **Service Overview** (150 words)
+2. **Types of Work** (400 words)
+3. **Process and Timeline** (150 words)
+4. **Certifications and Insurance** (100 words)
 
 ---
 
-## 🔗 **4. INTERNAL LINKING STRATEGY**
+## 🔗 INTERNAL LINKING STRATEGY
 
-### **Homepage → Service Pages**:
-- "Professional Tree Surgery Services" → Tree Surgery page
-- "Lawn Mowing & Care" → Lawn Mowing page
-- "Hedge Cutting Services" → Hedge Cutting page
-- "Garden Landscaping" → Landscaping page
-- "PA1 & PA6 Certified Services" → Pesticide page
+### Hub and Spoke Model
+- **Hub**: Homepage (links to all service and location pages)
+- **Spokes**: Service pages (link to related services and location pages)
+- **Supporting**: Blog posts (link to relevant service pages and location pages)
 
-### **Service Pages → Location Pages**:
-- "Serving Troon, Prestwick & Ayrshire" → Location pages
-- "Local knowledge of Ayrshire conditions" → Ayrshire page
-- "Coastal garden challenges" → Troon/Prestwick pages
+### Link Distribution
+- **Homepage**: 15-20 internal links
+- **Service Pages**: 8-12 internal links each
+- **Location Pages**: 10-15 internal links each
+- **Blog Posts**: 5-8 internal links each
 
-### **Location Pages → Blog Posts**:
-- "Common garden problems in [location]" → Relevant blog posts
-- "Local gardening tips" → How-to blog posts
-- "Seasonal garden care" → Seasonal blog posts
-
-### **Blog Posts → Service Pages**:
-- "Professional help available" → Relevant service pages
-- "Contact our experts" → Contact page
-- "Our services include" → Service pages
+### Anchor Text Strategy
+- Use descriptive anchor text that includes target keywords
+- Vary anchor text to avoid over-optimization
+- Include location-specific anchor text where relevant
 
 ---
 
-## 📞 **5. CALL-TO-ACTION STRATEGY**
+## 📊 CONTENT CALENDAR
 
-### **Standard CTA Format**:
-"Contact Maple Tree & Gardens today at **07853 224528** for professional [service] in [location]. We provide free quotes and serve Troon, Prestwick, and across Ayrshire."
+### Month 1
+- Week 1: Publish "Garden Drainage Problems in Ayrshire"
+- Week 2: Publish "Best Plants for Glasgow Gardens"
+- Week 3: Publish "Patio Cleaning Tips"
+- Week 4: Publish "Artificial Grass Installation Guide"
 
-### **Service-Specific CTAs**:
-- **Tree Surgery**: "Emergency tree removal available 24/7"
-- **Lawn Care**: "Regular maintenance schedules available"
-- **Hedge Cutting**: "Professional shaping and trimming"
-- **Landscaping**: "Free garden design consultation"
-- **Pesticide**: "PA1 & PA6 certified safe application"
+### Month 2
+- Week 1: Publish "Fencing Maintenance Guide"
+- Week 2: Publish "Small Garden Design Ideas"
+- Week 3: Publish "Lawn Care Schedule"
+- Week 4: Publish "Decking Care Guide"
 
----
-
-## 📊 **6. CONTENT IMPLEMENTATION PRIORITY**
-
-### **Phase 1 (High Priority)**:
-1. Tree Surgery Service Page
-2. Troon Location Page
-3. "Emergency Tree Removal" blog post
-
-### **Phase 2 (Medium Priority)**:
-4. Lawn Mowing Service Page
-5. Prestwick Location Page
-6. "Patchy Lawn" blog post
-
-### **Phase 3 (Long-term)**:
-7. Remaining service pages
-8. Ayrshire regional page
-9. All blog posts
+### Month 3
+- Week 1: Publish "Storm Damage Garden Repair"
+- Week 2: Publish "Choosing Landscaping Contractor"
+- Week 3: Create and publish service pages
+- Week 4: Create and publish location pages
 
 ---
 
-## 🎯 **7. KEYWORD TARGETING SUMMARY**
+## 🎯 SEO OPTIMIZATION
 
-### **Primary Keywords**:
-- tree surgery troon
-- lawn mowing troon
-- hedge cutting troon
-- garden landscaping troon
-- pesticide application troon
-- gardener troon
-- gardener prestwick
-- garden services ayrshire
+### On-Page SEO Elements
+- **Title Tags**: Include primary keyword and location
+- **Meta Descriptions**: Compelling descriptions with call-to-action
+- **Header Structure**: H1, H2, H3 hierarchy with keywords
+- **Image Alt Text**: Descriptive alt text with keywords
+- **Internal Linking**: Strategic linking between related content
 
-### **Long-tail Keywords**:
-- emergency tree removal troon
-- coastal garden landscaping ayrshire
-- PA1 certified weed control prestwick
-- professional hedge cutting troon
-- lawn care services ayrshire
+### Content Optimization
+- **Keyword Density**: 1-2% for primary keywords
+- **LSI Keywords**: Include related terms and synonyms
+- **Local Modifiers**: Include town names and "near me" variations
+- **Call-to-Actions**: Clear CTAs for quote requests and contact
 
-This content strategy will significantly expand your SEO footprint while maintaining a clean, focused homepage and providing valuable, location-specific content for your target audience.
+### Technical SEO
+- **Page Speed**: Optimize images and code for fast loading
+- **Mobile Optimization**: Ensure all content is mobile-friendly
+- **Schema Markup**: Add relevant schema for articles and services
+- **Canonical URLs**: Proper canonical tags for all pages
+
+---
+
+## 📈 EXPECTED RESULTS
+
+### Short Term (1-3 months)
+- **Increased Organic Traffic**: 25-40% increase in organic visitors
+- **Better Keyword Rankings**: Top 10 rankings for long-tail keywords
+- **Improved User Engagement**: Higher time on site and lower bounce rate
+
+### Medium Term (3-6 months)
+- **Local Search Dominance**: Top 3 rankings for local keywords
+- **Increased Lead Generation**: 30-50% more quote requests
+- **Brand Authority**: Recognition as local landscaping expert
+
+### Long Term (6-12 months)
+- **Market Leadership**: Dominant position in local search results
+- **Content Authority**: Recognition as go-to resource for landscaping advice
+- **Business Growth**: Significant increase in revenue and market share
+
+---
+
+## 🔍 CONTENT PERFORMANCE TRACKING
+
+### Key Metrics
+- **Organic Traffic**: Track traffic to each piece of content
+- **Keyword Rankings**: Monitor rankings for target keywords
+- **Conversion Rate**: Track quote requests from content
+- **Engagement Metrics**: Time on page, bounce rate, social shares
+
+### Tools for Tracking
+- **Google Analytics**: Traffic and engagement metrics
+- **Google Search Console**: Keyword rankings and search performance
+- **SEMrush/Ahrefs**: Keyword tracking and competitor analysis
+- **Hotjar**: User behavior and content interaction
+
+---
+
+## 🚀 IMPLEMENTATION PRIORITY
+
+### High Priority (Week 1-2)
+1. Create and publish service pages
+2. Create and publish location pages
+3. Publish first 2 blog posts
+
+### Medium Priority (Week 3-6)
+1. Publish remaining blog posts
+2. Optimize internal linking
+3. Add schema markup to all pages
+
+### Low Priority (Week 7-12)
+1. Create additional supporting content
+2. Develop content clusters
+3. Expand to additional service areas

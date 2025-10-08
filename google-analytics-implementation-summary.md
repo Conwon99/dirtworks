@@ -99,25 +99,41 @@ Enhanced with comprehensive tracking functions:
 
 ## Tracked Events
 
+### Complete Events Table
+
+| Event Name | Parameters | Description | Active Sources |
+|------------|-----------|-------------|----------------|
+| **page_view** | `page_path`, `page_title` | Tracks page views across the site | All pages (automatic) |
+| **phone_call** | `source` | Phone number clicks | `hero_section`, `contact_section`, `service_areas`, `navigation`, `faq_section`, `stirling_hero`, `stirling_cta`, `edinburgh_hero`, `edinburgh_cta`, `glasgow_page`, `ayrshire_page`, `garden_maintenance_page`, `building_services_page`, `pressure_washing_page`, `patios_fencing_decking_page`, `landscaping_groundworks_page` |
+| **whatsapp_click** | `source` | WhatsApp button clicks | `whatsapp_click_hero`, `whatsapp_click_contact`, `whatsapp_click_service_areas`, `whatsapp_click_about`, `whatsapp_click_stirling_hero`, `whatsapp_click_stirling_cta`, `whatsapp_click_edinburgh_hero`, `whatsapp_click_edinburgh_cta` |
+| **email_click** | `source` | Email link clicks | `contact_section`, `glasgow_page`, `ayrshire_page`, `garden_maintenance_page`, `building_services_page`, `pressure_washing_page`, `patios_fencing_decking_page`, `landscaping_groundworks_page` |
+| **quote_request** | `source`, `services[]` | Quote request submissions | `contact_form`, `services_grid`, `navigation_button`, `faq_section`, `reviews_section`, `glasgow_page`, `ayrshire_page`, `garden_maintenance_page`, `building_services_page`, `pressure_washing_page`, `patios_fencing_decking_page`, `landscaping_groundworks_page` |
+| **form_interaction** | `action`, `form_data` | Contact form interactions | Actions: `submit_success`, `submit_error` |
+| **navigation_click** | `section_id` | Navigation menu clicks | Various section IDs |
+| **service_click** | `service_title`, `source` | Service card clicks | `services_grid` + service names |
+| **gallery_interaction** | `action`, `image_index` | Gallery image viewing | Actions: `image_open`, `lightbox_close`, `image_next`, `image_prev` |
+| **external_link_click** | `link_url`, `link_text` | External website clicks | Facebook profile, other external links |
+| **scroll_depth** | `depth` | Scroll milestones | Values: 25, 50, 75, 100 (%) |
+
 ### Primary Call-to-Actions
-1. **Phone Calls** - All phone number clicks tracked with source location
-2. **WhatsApp Messages** - All WhatsApp button clicks tracked
-3. **Email Clicks** - All email link clicks tracked
-4. **Quote Requests** - All quote form submissions and quote button clicks
+1. **Phone Calls** - 21+ tracked sources across all pages and sections
+2. **WhatsApp Messages** - 8 specific WhatsApp button locations
+3. **Email Clicks** - 8 email link sources
+4. **Quote Requests** - 13+ quote request sources with service tracking
 5. **Contact Form** - Form interactions and submissions
 
 ### Secondary Interactions
 1. **Service Clicks** - Individual service card interactions
-2. **Gallery Interactions** - Image opens, navigation, lightbox usage
+2. **Gallery Interactions** - 4 distinct gallery actions
 3. **Navigation Clicks** - Menu navigation tracking
 4. **External Links** - Facebook and other external link clicks
-5. **Scroll Behavior** - Scroll depth and time on page
+5. **Scroll Behavior** - 4 scroll depth milestones
 
 ### Event Parameters
 Each tracked event includes relevant parameters:
-- **Source**: Location where the action occurred (hero_section, contact_section, etc.)
+- **Source**: Location where the action occurred (e.g., `whatsapp_click_hero`, `contact_section`)
 - **Action**: Specific action taken (click, submit, open, etc.)
-- **Service**: Service type when applicable
+- **Services**: Array of service types when applicable
 - **Location**: Button or element location
 - **Additional Data**: Context-specific information
 

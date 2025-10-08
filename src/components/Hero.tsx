@@ -8,7 +8,7 @@ import { useToast } from "@/hooks/use-toast";
 import { Phone, Mail, Clock, MapPin } from "lucide-react";
 import LazyImage from "@/components/LazyImage";
 import WhatsAppIcon from "@/components/WhatsAppIcon";
-import { trackPhoneCall, trackMessenger, trackQuoteRequest, trackFormInteraction } from "@/utils/analytics";
+import { trackPhoneCall, trackWhatsAppClick, trackQuoteRequest, trackFormInteraction } from "@/utils/analytics";
 
 const Hero = () => {
   const [formData, setFormData] = useState({
@@ -85,7 +85,7 @@ const Hero = () => {
   };
 
   const handleMessengerClick = () => {
-    trackMessenger('hero_section');
+    trackWhatsAppClick('whatsapp_click_hero');
     window.open("https://wa.me/447403725998", "_blank");
   };
 
@@ -94,7 +94,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <LazyImage
-          src="/dirt Landscaping Hero Background.jpg"
+          src="/dirt Landscaping Hero Background.webp"
           alt="Dirtworks Landscaping hero background"
           className="w-full h-full object-cover"
           loading="eager"

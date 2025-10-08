@@ -1,282 +1,376 @@
-import React from 'react';
-import { Helmet } from 'react-helmet-async';
-import { MapPin, Star, Clock, Shield, Award, Phone, MessageCircle } from 'lucide-react';
-import LazyImage from '@/components/LazyImage';
-import WhatsAppIcon from '@/components/WhatsAppIcon';
-import { trackPhoneCall, trackMessenger } from '@/utils/analytics';
+import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import { Button } from "@/components/ui/button";
+import { Phone, Mail, MapPin, Clock, CheckCircle, Star, ArrowRight } from "lucide-react";
+import { trackQuoteRequest, trackPhoneCall, trackEmailClick } from "@/utils/analytics";
 
 const Glasgow = () => {
-  const localLandmarks = [
-    "Glasgow Cathedral",
-    "Kelvingrove Park",
-    "Glasgow Green",
-    "Pollok Country Park",
-    "Botanic Gardens",
-    "Riverside Museum",
-    "Glasgow Science Centre",
-    "People's Palace"
-  ];
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-  const neighborhoods = [
-    "West End",
-    "East End", 
-    "Southside",
-    "North Glasgow",
-    "Merchant City",
-    "West End",
-    "Shawlands",
-    "Bearsden",
-    "Milngavie",
-    "Newton Mearns"
-  ];
+  const handleQuoteClick = () => {
+    trackQuoteRequest('glasgow_page', ['Glasgow Location']);
+    // Navigate to homepage contact section
+    window.location.href = "/#contact-form";
+  };
 
-  const localTestimonials = [
-    {
-      name: "Sarah Mitchell",
-      location: "West End, Glasgow",
-      rating: 5,
-      text: "Clyde Decking transformed our West End garden with beautiful composite decking. The team worked around the historic tenement building restrictions perfectly. Highly recommend!",
-      service: "Composite Decking",
-      landmark: "Near Kelvingrove Park"
-    },
-    {
-      name: "James Campbell",
-      location: "Bearsden, Glasgow", 
-      rating: 5,
-      text: "Living near Glasgow Cathedral, we needed fencing that complemented the area's heritage. Clyde Decking delivered exactly what we wanted - professional and respectful of the local character.",
-      service: "Fencing Installation",
-      landmark: "Near Glasgow Cathedral"
-    },
-    {
-      name: "Emma Thompson",
-      location: "Shawlands, Glasgow",
-      rating: 5,
-      text: "Our Southside home needed decking that could handle Glasgow's weather. The composite decking they installed has been perfect - no maintenance and looks great year-round!",
-      service: "Composite Decking", 
-      landmark: "Near Pollok Country Park"
-    }
-  ];
+  const handleCallClick = () => {
+    trackPhoneCall('glasgow_page');
+    window.location.href = "tel:+447403725998";
+  };
 
-  const localPainPoints = [
-    "Glasgow's wet climate causing decking to rot and warp",
-    "Historic building restrictions limiting outdoor modifications",
-    "High foot traffic areas requiring durable fencing solutions",
-    "Limited space in tenement gardens requiring smart design",
-    "Council planning requirements for conservation areas",
-    "Salt air from the Clyde affecting outdoor structures",
-    "Glasgow's variable weather requiring weather-resistant materials"
-  ];
+  const handleEmailClick = () => {
+    trackEmailClick('glasgow_page');
+  };
 
   return (
     <>
       <Helmet>
-        <title>Decking & Fencing Services in Glasgow | Clyde Decking Solutions</title>
-        <meta name="description" content="Expert decking & fencing services in Glasgow. Serving West End, East End, Southside & all Glasgow areas. Composite & wooden decking, fencing installation. Free quotes available." />
-        <meta name="keywords" content="decking glasgow, fencing glasgow, composite decking glasgow, wooden decking glasgow, fence installation glasgow, outdoor structures glasgow, decking contractors glasgow, fencing specialists glasgow, custom decking glasgow, professional decking glasgow, garden decking glasgow, privacy fencing glasgow, decking installation glasgow, fence repairs glasgow, outdoor living glasgow, composite decking contractors glasgow, wooden decking specialists glasgow, decking builders glasgow, fencing contractors glasgow, outdoor decking glasgow, west end decking, east end fencing, southside decking, bearsden decking, shawlands fencing" />
-        <link rel="canonical" href="https://clydedecking.netlify.app/glasgow" />
+        <title>Landscaping Services Glasgow | Garden Maintenance & Building Services | Dirtworks</title>
+        <meta name="description" content="Professional landscaping services in Glasgow. Garden maintenance, groundworks, patios, fencing, decking, pressure washing, and building services across Glasgow." />
+        <meta name="keywords" content="landscaping Glasgow, garden maintenance Glasgow, groundworks Glasgow, patio installation Glasgow, fencing Glasgow, decking Glasgow, pressure washing Glasgow, building services Glasgow" />
+        <link rel="canonical" href="https://dirtworkslandscaping.co.uk/glasgow" />
         
-        {/* Open Graph */}
-        <meta property="og:title" content="Decking & Fencing Services in Glasgow | Clyde Decking Solutions" />
-        <meta property="og:description" content="Expert decking & fencing services in Glasgow. Serving West End, East End, Southside & all Glasgow areas. Composite & wooden decking, fencing installation. Free quotes available." />
-        <meta property="og:url" content="https://clydedecking.netlify.app/glasgow" />
-        <meta property="og:type" content="website" />
+        {/* OpenGraph */}
+        <meta property="og:title" content="Landscaping Services Glasgow | Garden Maintenance & Building Services | Dirtworks" />
+        <meta property="og:description" content="Professional landscaping services in Glasgow. Garden maintenance, groundworks, patios, fencing, decking, pressure washing, and building services across Glasgow." />
+        <meta property="og:url" content="https://dirtworkslandscaping.co.uk/glasgow" />
+        <meta property="og:type" content="service" />
         
-        {/* Twitter Card */}
-        <meta name="twitter:title" content="Decking & Fencing Services in Glasgow | Clyde Decking Solutions" />
-        <meta name="twitter:description" content="Expert decking & fencing services in Glasgow. Serving West End, East End, Southside & all Glasgow areas. Composite & wooden decking, fencing installation. Free quotes available." />
+        {/* Twitter */}
+        <meta name="twitter:title" content="Landscaping Services Glasgow | Garden Maintenance & Building Services | Dirtworks" />
+        <meta name="twitter:description" content="Professional landscaping services in Glasgow. Garden maintenance, groundworks, patios, fencing, decking, pressure washing, and building services across Glasgow." />
+        
+        {/* JSON-LD Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Dirtworks Landscaping Ltd - Glasgow",
+            "description": "Professional landscaping and building services in Glasgow including garden maintenance, groundworks, patios, fencing, decking, pressure washing, and building services.",
+            "url": "https://dirtworkslandscaping.co.uk/glasgow",
+            "telephone": "+447403725998",
+            "email": "dirtworkslandscaping@outlook.com",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Glasgow",
+              "addressRegion": "Glasgow",
+              "addressCountry": "Scotland"
+            },
+            "areaServed": {
+              "@type": "City",
+              "name": "Glasgow"
+            },
+            "serviceType": ["Landscaping", "Garden Maintenance", "Groundworks", "Patios", "Fencing", "Decking", "Pressure Washing", "Building Services"],
+            "openingHours": "Mo-Fr 08:00-18:00,Sa 09:00-16:00",
+            "priceRange": "Quote on request"
+          })}
+        </script>
       </Helmet>
 
-      <div className="min-h-screen bg-background">
+      <Navigation />
+      
+      <main className="min-h-screen">
         {/* Hero Section */}
-        <section className="relative py-20 px-4 bg-gradient-to-br from-primary/10 to-primary/5">
-          <div className="container mx-auto max-w-7xl">
-            <div className="text-center mb-12">
-              <h1 className="font-display font-bold text-5xl lg:text-6xl text-foreground mb-6">
-                <span className="text-primary">Decking & Fencing</span><br />
-                Services in Glasgow
+        <section className="relative bg-gradient-to-br from-blue-50 to-green-50 py-20 px-4">
+          <div className="container mx-auto max-w-6xl">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+                  Landscaping Services Glasgow
               </h1>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-                Serving Glasgow's most prestigious areas including West End, East End, Southside, and all surrounding neighborhoods. 
-                Expert decking and fencing solutions tailored to Glasgow's unique character and climate.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="tel:+447495295903"
-                  onClick={() => trackPhoneCall('glasgow_hero')}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-primary text-white rounded-full font-semibold hover:bg-primary/90 transition-colors"
+                <h2 className="text-2xl md:text-3xl text-gray-700 mb-8">
+                  Professional Garden & Building Services
+                </h2>
+                <p className="text-xl text-gray-600 leading-relaxed mb-8">
+                  Serving Glasgow with comprehensive landscaping, garden maintenance, and building services. 
+                  From the city center to the suburbs, we bring professional expertise and quality 
+                  craftsmanship to every project across Glasgow.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Button 
+                    onClick={handleQuoteClick}
+                    className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg font-semibold rounded-full"
+                  >
+                    Get Free Quote
+                  </Button>
+                  <Button 
+                    onClick={handleCallClick}
+                    variant="outline"
+                    className="border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 text-lg font-semibold rounded-full"
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Call 07495 295903
-                </a>
-                <a
-                  href="https://wa.me/447495295903"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => trackMessenger('glasgow_hero')}
-                  className="inline-flex items-center justify-center px-8 py-4 border-2 border-primary text-primary rounded-full font-semibold hover:bg-primary hover:text-white transition-colors"
-                >
-                  <WhatsAppIcon className="w-5 h-5 mr-2" />
-                  WhatsApp Us
-                </a>
+                    Call 07403 725998
+                  </Button>
+                </div>
+              </div>
+              <div className="relative">
+                <img 
+                  src="/Services/dirt Landscaping Hero Background.webp" 
+                  alt="Professional landscaping services in Glasgow"
+                  className="rounded-2xl shadow-2xl w-full h-auto"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Local Areas Served */}
-        <section className="py-16 px-4">
-          <div className="container mx-auto max-w-7xl">
-            <div className="text-center mb-12">
-              <h2 className="font-display font-bold text-4xl text-foreground mb-4">
-                Glasgow Areas We Serve
+        {/* Glasgow Areas Served */}
+        <section className="py-20 px-4 bg-white">
+          <div className="container mx-auto max-w-6xl">
+            <div className="text-center mb-16">
+              <h2 className="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                Areas We Serve in Glasgow
               </h2>
-              <p className="text-xl text-muted-foreground">
-                From the historic West End to the vibrant Southside, we cover all of Glasgow
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                We provide landscaping and building services across all areas of Glasgow, 
+                from the city center to the surrounding suburbs and districts.
               </p>
             </div>
             
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-12">
-              {neighborhoods.map((area, index) => (
-                <div
-                  key={index}
-                  className="flex items-center gap-2 p-3 rounded-lg bg-background border border-border hover:border-primary/30 transition-colors group"
-                >
-                  <MapPin className="w-4 h-4 text-primary flex-shrink-0" />
-                  <span className="text-foreground font-medium group-hover:text-primary transition-colors">
-                    {area}
-                  </span>
-                </div>
-              ))}
-            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">City Center</h3>
+                <ul className="text-gray-600 space-y-1 text-sm">
+                  <li>• Glasgow City Center</li>
+                  <li>• Merchant City</li>
+                  <li>• West End</li>
+                  <li>• East End</li>
+                </ul>
           </div>
-        </section>
-
-        {/* Local Landmarks & Context */}
-        <section className="py-16 px-4 bg-muted/50">
-          <div className="container mx-auto max-w-7xl">
-            <div className="text-center mb-12">
-              <h2 className="font-display font-bold text-4xl text-foreground mb-4">
-                Proudly Serving Glasgow's Iconic Areas
-              </h2>
-              <p className="text-xl text-muted-foreground">
-                We understand Glasgow's unique character and work with local landmarks and conservation areas
-              </p>
+              
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">North Glasgow</h3>
+                <ul className="text-gray-600 space-y-1 text-sm">
+                  <li>• Maryhill</li>
+                  <li>• Possilpark</li>
+                  <li>• Springburn</li>
+                  <li>• Ruchill</li>
+                </ul>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="font-display font-bold text-2xl text-foreground mb-4">
-                  Local Landmarks We Work Near
-                </h3>
-                <div className="grid grid-cols-2 gap-3">
-                  {localLandmarks.map((landmark, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center gap-2 p-3 rounded-lg bg-background border border-border"
-                    >
-                      <Award className="w-4 h-4 text-primary flex-shrink-0" />
-                      <span className="text-foreground font-medium">{landmark}</span>
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">South Glasgow</h3>
+                <ul className="text-gray-600 space-y-1 text-sm">
+                  <li>• Govan</li>
+                  <li>• Pollokshields</li>
+                  <li>• Shawlands</li>
+                  <li>• Newlands</li>
+                </ul>
                     </div>
-                  ))}
+              
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">East Glasgow</h3>
+                <ul className="text-gray-600 space-y-1 text-sm">
+                  <li>• Dennistoun</li>
+                  <li>• Bridgeton</li>
+                  <li>• Shettleston</li>
+                  <li>• Tollcross</li>
+                </ul>
                 </div>
+              
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">West Glasgow</h3>
+                <ul className="text-gray-600 space-y-1 text-sm">
+                  <li>• Partick</li>
+                  <li>• Whiteinch</li>
+                  <li>• Scotstoun</li>
+                  <li>• Yoker</li>
+                </ul>
               </div>
               
-              <div>
-                <h3 className="font-display font-bold text-2xl text-foreground mb-4">
-                  Common Glasgow Challenges We Solve
-                </h3>
-                <ul className="space-y-3">
-                  {localPainPoints.map((painPoint, index) => (
-                    <li key={index} className="flex items-start gap-3">
-                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-muted-foreground">{painPoint}</span>
-                    </li>
-                  ))}
+              <div className="bg-gray-50 rounded-lg p-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">Outer Areas</h3>
+                <ul className="text-gray-600 space-y-1 text-sm">
+                  <li>• Bearsden</li>
+                  <li>• Milngavie</li>
+                  <li>• Bishopbriggs</li>
+                  <li>• Kirkintilloch</li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Local Testimonials */}
-        <section className="py-16 px-4">
-          <div className="container mx-auto max-w-7xl">
-            <div className="text-center mb-12">
-              <h2 className="font-display font-bold text-4xl text-foreground mb-4">
-                What Glasgow Customers Say
+        {/* Services in Glasgow */}
+        <section className="py-20 px-4 bg-gray-50">
+          <div className="container mx-auto max-w-6xl">
+            <div className="text-center mb-16">
+              <h2 className="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                Our Services in Glasgow
               </h2>
-              <p className="text-xl text-muted-foreground">
-                Real reviews from real Glasgow customers
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Comprehensive landscaping and building services tailored to Glasgow's 
+                unique urban environment and weather conditions.
               </p>
             </div>
             
-            <div className="grid md:grid-cols-3 gap-8">
-              {localTestimonials.map((testimonial, index) => (
-                <div key={index} className="bg-background border border-border rounded-xl p-6 hover:border-primary/30 transition-colors">
-                  <div className="flex items-center gap-1 mb-4">
-                    {Array.from({ length: 5 }, (_, i) => (
-                      <Star
-                        key={i}
-                        className="w-5 h-5 text-accent fill-current"
-                      />
-                    ))}
-                  </div>
-                  <p className="text-muted-foreground mb-4 italic">"{testimonial.text}"</p>
-                  <div className="border-t border-border pt-4">
-                    <div className="font-semibold text-foreground">{testimonial.name}</div>
-                    <div className="text-sm text-muted-foreground">{testimonial.location}</div>
-                    <div className="text-sm text-primary">{testimonial.landmark}</div>
-                    <div className="text-sm text-muted-foreground">{testimonial.service}</div>
-                  </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                  <CheckCircle className="w-6 h-6 text-green-600" />
                 </div>
-              ))}
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Garden Maintenance</h3>
+                <p className="text-gray-600 mb-4">
+                  Regular garden maintenance services including lawn care, hedge trimming, 
+                  and seasonal garden preparation.
+                </p>
+                <ul className="text-sm text-gray-500 space-y-1">
+                  <li>• Lawn mowing and care</li>
+                  <li>• Hedge trimming</li>
+                  <li>• Garden cleanup</li>
+                  <li>• Seasonal maintenance</li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                  <CheckCircle className="w-6 h-6 text-green-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Landscaping & Groundworks</h3>
+                <p className="text-gray-600 mb-4">
+                  Complete landscaping services including site preparation, drainage systems, 
+                  and outdoor design.
+                </p>
+                <ul className="text-sm text-gray-500 space-y-1">
+                  <li>• Site preparation</li>
+                  <li>• Drainage systems</li>
+                  <li>• Landscaping design</li>
+                  <li>• Excavation work</li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                  <CheckCircle className="w-6 h-6 text-green-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Patios, Fencing & Decking</h3>
+                <p className="text-gray-600 mb-4">
+                  Professional installation of patios, fencing, and decking to enhance 
+                  your outdoor living space.
+                </p>
+                <ul className="text-sm text-gray-500 space-y-1">
+                  <li>• Patio installation</li>
+                  <li>• Fencing services</li>
+                  <li>• Decking installation</li>
+                  <li>• Repair and maintenance</li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                  <CheckCircle className="w-6 h-6 text-green-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Pressure Washing</h3>
+                <p className="text-gray-600 mb-4">
+                  Professional cleaning services for driveways, patios, and outdoor 
+                  surfaces to restore their appearance.
+                </p>
+                <ul className="text-sm text-gray-500 space-y-1">
+                  <li>• Driveway cleaning</li>
+                  <li>• Patio restoration</li>
+                  <li>• Stain removal</li>
+                  <li>• Soft-wash services</li>
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                  <CheckCircle className="w-6 h-6 text-green-600" />
+                  </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Building Services</h3>
+                <p className="text-gray-600 mb-4">
+                  Professional building and construction services including extensions, 
+                  brickwork, and general building work.
+                </p>
+                <ul className="text-sm text-gray-500 space-y-1">
+                  <li>• Small extensions</li>
+                  <li>• Brickwork services</li>
+                  <li>• General building</li>
+                  <li>• Renovation work</li>
+                </ul>
+                  </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                  <CheckCircle className="w-6 h-6 text-green-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Emergency Services</h3>
+                <p className="text-gray-600 mb-4">
+                  Emergency response services for storm damage, urgent repairs, 
+                  and immediate assistance needs.
+                </p>
+                <ul className="text-sm text-gray-500 space-y-1">
+                  <li>• Storm damage repair</li>
+                  <li>• Emergency fencing</li>
+                  <li>• Urgent maintenance</li>
+                  <li>• 24/7 response</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
 
         {/* Why Choose Us for Glasgow */}
-        <section className="py-16 px-4 bg-muted/50">
-          <div className="container mx-auto max-w-7xl">
-            <div className="text-center mb-12">
-              <h2 className="font-display font-bold text-4xl text-foreground mb-4">
-                Why Glasgow Chooses Clyde Decking
+        <section className="py-20 px-4 bg-white">
+          <div className="container mx-auto max-w-6xl">
+            <div className="text-center mb-16">
+              <h2 className="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                Why Choose Dirtworks in Glasgow?
               </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Local expertise, professional service, and commitment to quality make us 
+                the preferred choice for landscaping and building services in Glasgow.
+              </p>
             </div>
             
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Shield className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <MapPin className="w-8 h-8 text-green-600" />
                 </div>
-                <h3 className="font-display font-bold text-xl text-foreground mb-2">
-                  Glasgow Climate Expertise
-                </h3>
-                <p className="text-muted-foreground">
-                  We understand Glasgow's wet climate and choose materials that withstand the weather
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Local Knowledge</h3>
+                <p className="text-gray-600">
+                  Deep understanding of Glasgow's urban environment, soil conditions, 
+                  and local building regulations.
+                </p>
+              </div>
+
+              <div className="text-center">
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Star className="w-8 h-8 text-green-600" />
+                </div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Quality Service</h3>
+                <p className="text-gray-600">
+                  Professional service with attention to detail and commitment to 
+                  exceeding customer expectations.
                 </p>
               </div>
               
               <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Award className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle className="w-8 h-8 text-green-600" />
                 </div>
-                <h3 className="font-display font-bold text-xl text-foreground mb-2">
-                  Conservation Area Experience
-                </h3>
-                <p className="text-muted-foreground">
-                  Experienced with Glasgow's conservation areas and planning requirements
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Reliable Team</h3>
+                <p className="text-gray-600">
+                  Experienced, skilled professionals who deliver projects on time 
+                  and within budget.
                 </p>
               </div>
               
               <div className="text-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-8 h-8 text-primary" />
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Phone className="w-8 h-8 text-green-600" />
                 </div>
-                <h3 className="font-display font-bold text-xl text-foreground mb-2">
-                  Local Knowledge
-                </h3>
-                <p className="text-muted-foreground">
-                  We know Glasgow's neighborhoods and work around local restrictions
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">Free Quotes</h3>
+                <p className="text-gray-600">
+                  No-obligation quotes for all services with transparent pricing 
+                  and detailed project specifications.
                 </p>
               </div>
             </div>
@@ -284,37 +378,78 @@ const Glasgow = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 px-4 bg-primary text-white">
+        <section className="py-20 px-4 bg-green-600">
           <div className="container mx-auto max-w-4xl text-center">
-            <h2 className="font-display font-bold text-4xl mb-4">
-              Ready to Transform Your Glasgow Garden?
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-6">
+              Ready to Transform Your Glasgow Property?
             </h2>
-            <p className="text-xl mb-8 opacity-90">
-              Get your free quote today and join hundreds of satisfied Glasgow customers
+            <p className="text-xl text-green-100 mb-8">
+              Get a free quote for professional landscaping and building services in Glasgow. 
+              Our expert team is ready to enhance your property with quality workmanship.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:+447495295903"
-                onClick={() => trackPhoneCall('glasgow_cta')}
-                className="inline-flex items-center justify-center px-8 py-4 bg-white text-primary rounded-full font-semibold hover:bg-gray-100 transition-colors"
+              <Button 
+                onClick={handleQuoteClick}
+                className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold rounded-full"
+              >
+                Get Free Quote
+              </Button>
+              <Button 
+                onClick={handleCallClick}
+                variant="outline"
+                className="border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 text-lg font-semibold rounded-full"
               >
                 <Phone className="w-5 h-5 mr-2" />
-                Call 07495 295903
-              </a>
-              <a
-                href="https://wa.me/447495295903"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => trackMessenger('glasgow_cta')}
-                className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white rounded-full font-semibold hover:bg-white hover:text-primary transition-colors"
-              >
-                <WhatsAppIcon className="w-5 h-5 mr-2" />
-                WhatsApp Us
-              </a>
+                Call 07403 725998
+              </Button>
             </div>
           </div>
         </section>
-      </div>
+
+        {/* Contact Info */}
+        <section className="py-16 px-4 bg-gray-50">
+          <div className="container mx-auto max-w-4xl">
+            <div className="grid md:grid-cols-3 gap-8 text-center">
+              <div>
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Phone className="w-6 h-6 text-green-600" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
+                <a 
+                  href="tel:+447403725998" 
+                  onClick={handleCallClick}
+                  className="text-green-600 hover:text-green-700"
+                >
+                  07403 725998
+                </a>
+              </div>
+              <div>
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Mail className="w-6 h-6 text-green-600" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
+                <a 
+                  href="mailto:dirtworkslandscaping@outlook.com" 
+                  onClick={handleEmailClick}
+                  className="text-green-600 hover:text-green-700"
+                >
+                  dirtworkslandscaping@outlook.com
+                </a>
+              </div>
+              <div>
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Clock className="w-6 h-6 text-green-600" />
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Hours</h3>
+                <p className="text-gray-600">Mon-Fri: 8:00 AM - 6:00 PM</p>
+                <p className="text-gray-600">Sat: 9:00 AM - 4:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
     </>
   );
 };

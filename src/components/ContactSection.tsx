@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import { trackPhoneCall, trackMessenger, trackQuoteRequest, trackFormInteraction, trackEmailClick } from "@/utils/analytics";
+import { trackPhoneCall, trackWhatsAppClick, trackQuoteRequest, trackFormInteraction, trackEmailClick } from "@/utils/analytics";
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -80,7 +80,7 @@ const ContactSection = () => {
   };
 
   const handleMessengerClick = () => {
-    trackMessenger('contact_section');
+    trackWhatsAppClick('whatsapp_click_contact');
     window.open("https://wa.me/447403725998", "_blank");
   };
 

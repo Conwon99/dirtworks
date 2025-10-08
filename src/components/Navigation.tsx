@@ -1,12 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
 import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import LazyImage from "@/components/LazyImage";
 import { trackPhoneCall, trackNavigation, trackQuoteRequest } from "@/utils/analytics";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,16 +40,29 @@ const Navigation = () => {
 
   const handleQuoteClick = () => {
     trackQuoteRequest('navigation_button', []);
-    scrollToSection("contact-form");
+    if (isHomePage) {
+      scrollToSection("contact-form");
+    } else {
+      // Navigate to homepage and scroll to contact form
+      window.location.href = "/#contact-form";
+    }
   };
 
+  const handleNavClick = (sectionId: string) => {
+    if (isHomePage) {
+      scrollToSection(sectionId);
+    } else {
+      // Navigate to homepage and scroll to section
+      window.location.href = `/#${sectionId}`;
+    }
+  };
 
   const navItems = [
-    { label: "Home", onClick: () => scrollToSection("hero") },
-    { label: "Services", onClick: () => scrollToSection("services") },
-    { label: "Gallery", onClick: () => scrollToSection("gallery") },
-    { label: "FAQ", onClick: () => scrollToSection("faq") },
-    { label: "Contact", onClick: () => scrollToSection("contact-form") },
+    { label: "Home", onClick: () => handleNavClick("hero"), isLink: false },
+    { label: "Services", onClick: () => handleNavClick("services"), isLink: false },
+    { label: "Gallery", onClick: () => handleNavClick("gallery"), isLink: false },
+    { label: "FAQ", onClick: () => handleNavClick("faq"), isLink: false },
+    { label: "Contact", onClick: () => handleNavClick("contact-form"), isLink: false },
   ];
 
   return (
@@ -61,7 +77,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <div className="w-16 h-16 md:w-20 md:h-20">
               <LazyImage
-                src="/Dirtworks Landscaping logo edited..png"
+                src="/Dirtworks Landscaping logo edited..webp"
                 alt="Dirtworks Landscaping Ltd logo"
                 className="w-full h-full object-contain brightness-0 invert"
               />
@@ -71,13 +87,23 @@ const Navigation = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <button
-                key={item.label}
-                onClick={item.onClick}
-                className="text-primary-foreground hover:text-primary-foreground/80 transition-colors duration-200 font-medium"
-              >
-                {item.label}
-              </button>
+              item.isLink ? (
+                <Link
+                  key={item.label}
+                  to={item.href}
+                  className="text-primary-foreground hover:text-primary-foreground/80 transition-colors duration-200 font-medium"
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <button
+                  key={item.label}
+                  onClick={item.onClick}
+                  className="text-primary-foreground hover:text-primary-foreground/80 transition-colors duration-200 font-medium"
+                >
+                  {item.label}
+                </button>
+              )
             ))}
           </div>
 
@@ -122,13 +148,24 @@ const Navigation = () => {
           <div className="md:hidden bg-primary border-t border-primary-foreground/20">
             <div className="py-4 space-y-4">
               {navItems.map((item) => (
-                <button
-                  key={item.label}
-                  onClick={item.onClick}
-                  className="block w-full text-left px-4 py-2 text-primary-foreground hover:text-primary-foreground/80 hover:bg-primary-foreground/10 transition-colors duration-200"
-                >
-                  {item.label}
-                </button>
+                item.isLink ? (
+                  <Link
+                    key={item.label}
+                    to={item.href}
+                    className="block w-full text-left px-4 py-2 text-primary-foreground hover:text-primary-foreground/80 hover:bg-primary-foreground/10 transition-colors duration-200"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                ) : (
+                  <button
+                    key={item.label}
+                    onClick={item.onClick}
+                    className="block w-full text-left px-4 py-2 text-primary-foreground hover:text-primary-foreground/80 hover:bg-primary-foreground/10 transition-colors duration-200"
+                  >
+                    {item.label}
+                  </button>
+                )
               ))}
               <div className="px-4 pt-4 border-t border-primary-foreground/20 space-y-3">
                 <Button

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Award, Users, Clock, Home, Facebook, Truck } from "lucide-react";
 import LazyImage from "@/components/LazyImage";
 import WhatsAppIcon from "@/components/WhatsAppIcon";
-import { trackMessenger } from "@/utils/analytics";
+import { trackWhatsAppClick } from "@/utils/analytics";
 
 const AboutUs = () => {
   return (
@@ -35,7 +35,7 @@ const AboutUs = () => {
                   href="https://wa.me/447403725998" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  onClick={() => trackMessenger('about_section')}
+                  onClick={() => trackWhatsAppClick('whatsapp_click_about')}
                   className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full flex items-center justify-center hover:bg-primary/10 transition-colors flex-shrink-0"
                 >
                   <WhatsAppIcon className="w-4 h-4 sm:w-5 sm:h-5" color="black" />
@@ -49,7 +49,7 @@ const AboutUs = () => {
             <div className="text-center w-full max-w-sm sm:max-w-md lg:max-w-lg">
               <div className="mb-4 sm:mb-6 mx-auto">
                 <LazyImage
-                  src="/Dirtworks Landscaping logo edited..png"
+                  src="/Dirtworks Landscaping logo edited..webp"
                   alt="Dirtworks Landscaping Ltd logo"
                   className="w-full h-auto max-w-[200px] sm:max-w-[250px] lg:max-w-[320px] object-contain brightness-0 invert mx-auto"
                 />
